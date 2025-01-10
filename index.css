@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width:769px){
+    .head{
+        background-color:  rgb(7, 102, 86);
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        background-color: rgb(7, 102, 86);
+        height: 10vh;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* background-color: rgb(182, 159, 57); */
+        height: 30vh;
+    }
+    .div1{
+        background-color: rgb(224, 141, 16);
+    }
+    .div2{
+        background-color: rgb(19, 199, 28);
+    }
+    .sec2{
+        /* margin: 10px; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 50vh;
+        background-color: rgb(202, 231, 94);
+    }
+    .A{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+             
+    }
+    .A1{
+        margin: 10px;
+        background-color: rgb(8, 23, 156);
+        display: grid;
+    }
+    .A2{
+        display: grid;
+        margin: 10px;
+        background-color: rgb(142, 19, 173);
+    }
+    .B{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px;
+    }
+    .B1{
+        margin: 10px;
+        background-color: rgb(168, 93, 8);
+    }
+    .B2{
+        margin: 10px;
+        background-color: rgb(5, 116, 60);
+    }
+    .B3{
+        margin: 10px;
+        background-color: rgb(165, 54, 91);
+    }
+}
+@media only screen and (max-width:370px){
+    .head{
+        background-color: #c48b10;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .footer{
+        background-color: #c48b10 ;
+        height: 10vh;
+        display: flex;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background-color: rgb(11, 190, 182);
+        height: 50vh;
+    }
+    .sec2{
+        /* margin: 30px; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 50vh;
+        background-color: rgb(189, 107, 138);
+    }
+}
+@media only screen and (min-device-width:561px) and (max-device-width:768px){
+    .head{
+        background-color: #a81616;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* background-color: rgb(182, 159, 57); */
+        height: 40vh;
+    }
+    .div1{
+        background-color: rgb(69, 120, 185);
+    }
+    .div2{
+        background-color: rgb(138, 28, 172);
+    }
+    .sec2{
+        /* margin: 10px; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 60vh;
+        background-color: #c48b10;
+    }
+    .A{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+             
+    }
+    .A1{
+        margin: 10px;
+        background-color: darkslategray;
+        display: grid;
+    }
+    .A2{
+        display: grid;
+        margin: 10px;
+        background-color: darkslategray;
+    }
+
+    .B{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px;
+        height: 60vh;
+    }
+    .B1{
+        margin: 10px;
+        background-color: cornflowerblue;
+    }
+    .B2{
+        margin: 10px;
+        background-color: rgb(20, 175, 98);
+    }
+    .B3{
+        margin: 10px;
+        background-color: rgb(160, 84, 109);
+    }
+}
+@media only screen and (min-device-width:371px) and (max-device-width:560px){
+    .head{
+        background-color: rgb(161, 29, 29);
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        background-color: rgb(161, 29, 29);
+        height: 10vh;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(182, 159, 57);
+        height: 30vh;
+    }
+    .div1{
+        background-color: rgb(60, 175, 15);   
+    }
+    .div2{
+        background-color: darkcyan;
+    }
+    .sec2{
+        margin: 15px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 50vh;
+        /* background-color: rgb(17, 167, 167); */
+    }
+    .A{
+        /* margin: 3px; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+             
+    }
+    .A1{
+        /* margin: 3px; */
+        background-color: rgb(226, 115, 10);
+        display: grid;
+    }
+    .A2{
+        display: grid;
+        /* margin: 3px; */
+        background-color: rgb(206, 5, 5);
+    }
+
+    .B{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* margin: 3px; */
+        height: 50vh;
+    }
+    .B1{
+         /* margin: 3px; */
+        background-color: rgb(28, 92, 211);
+    }
+    .B2{
+        /* margin: 3px; */
+        background-color: rgb(20, 175, 98);
+    }
+    .B3{
+        /* margin: 3px; */
+        background-color: rgb(160, 84, 109);
+    }
+}
